@@ -1,4 +1,4 @@
-/* Reset básico */
+
 * {
   margin: 0;
   padding: 0;
@@ -19,7 +19,7 @@ body {
   font-size: 14px;
 }
 
-/* Cabeçalho */
+
 header {
   text-align: center;
   padding: 20px;
@@ -27,28 +27,26 @@ header {
   font-weight: bold;
 }
 
-/* ========================= */
-/* Banner */
-/* ========================= */
+
 .banner {
   background: url("../image/banner.jpg") center/cover no-repeat;
   height: 350px;
   position: relative;
   display: flex;
-  align-items: center;   /* centraliza na vertical */
-  justify-content: flex-start; /* joga para a esquerda */
-  padding-left: 60px;    /* espaço da borda esquerda */
+  align-items: center;   
+  justify-content: flex-start; 
+  padding-left: 60px;    
 }
 
 .banner::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.6); /* overlay escuro cobrindo toda a imagem */
+  background: rgba(0, 0, 0, 0.6); 
 }
 
 .banner .overlay {
-  position: relative; /* aparece acima do overlay */
+  position: relative; 
   color: white;
   text-align: left;
   max-width: 500px;
@@ -65,9 +63,7 @@ header {
   line-height: 1.5;
 }
 
-/* ========================= */
-/* Destaques */
-/* ========================= */
+
 .destaques {
   text-align: center;
   padding: 40px 20px;
